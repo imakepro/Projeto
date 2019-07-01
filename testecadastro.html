@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro Profissional</title>
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+  <script> // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyAuT9-GPapZjCWPU4cetijrmGhsTE6iKw0",
+    authDomain: "imake-projeto.firebaseapp.com",
+    databaseURL: "https://imake-projeto.firebaseio.com",
+    projectId: "imake-projeto",
+    storageBucket: "imake-projeto.appspot.com",
+    messagingSenderId: "1069998702154"
+    };
+    firebase.initializeApp(config);
+    
+</script>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="dessaVezEserio/default/theme.css">
+  <link rel="stylesheet" href="Users/TEMP.jamires.007/Downloads/temQueFuncionarAmem-20190406T213254Z-001/temQueFuncionarAmem/dessaVezEserio/defaslt/theme.css">
+  
+  <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- JS dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/poppr.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/..1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/juery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/juery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3..0/js/bootstrap.min.js"></script>
+</script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</head>
+
+<body>
+  <div class="py-2 pi-draggable bg-light" style="	background-image: url(&quot;fundao.png&quot;);	background-position: left top;	background-attachment: fixed;	background-size: 100%;	background-repeat: repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="p-2 col-md-7 d-flex flex-column justify-content-center" style="">&gt; </div>
+        <div class="col-md-4 border-success p-4" style="background-image: url(&quot;ime/2.png&quot;); background-position: left top; background-size: 100%; background-repeat: repeat; border-radius: 60px; border-color: pink;">
+          <h3 class="w-75 mx-3 ml-5" ><b>Coloque seus dados aqui:</b></h3>
+          <h6 class="ml-5"><b>Nome:</b></h6>
+          <input type="text" id="nome" name="nome" class="w-75 mx-3 ml-5" placeholder="Digite seu nome..." required="" style="	border-radius: 5px;	">
+          <h6 class="ml-5"><b>Nome de usuário:</b></h6>
+          <input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="seu nome de login..." required="" class="mx-3 w-75 ml-5" style="	border-radius: 5px;	">
+          <h6 class="ml-5"><b>Email:</b></h6>
+          <input type="email" id="email" name="email" class="mx-3 w-75 ml-5" placeholder="seu email bb..." required="" style="	border-radius: 5px;">
+          <h6 class="ml-5"><b>CPF:</b></h6>
+          <input type="number" id="cpf" name="cpf" class="mx-3 w-75 ml-5" placeholder="000.000.000-00" required="" style="	border-radius: 5px;	">
+          <h6 class="ml-5"><b>Telefone:</b></h6>
+            
+          
+      </div>
+    </div>
+    <div class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5" style="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="section4" class="text-center ">
+        <div class="pi-draggable py-3 px-5 w-100 ">
+          <div class="row">
+            <br><br>
+            <div class="col-md-12 pr-5 px-5 mx-5 mr-5 w-75"> <img src="logo.png" alt="Logo" style="width:100px;">
+              <p>Manaus,Amazonas, Brasil <br><a href="+55 99999-9999">&nbsp;Fone:+55 92 99999-9999&nbsp;</a> <a href="imakepro@gmail.com">&nbsp;E-mail:imakepro@gmail.com&nbsp;</a> </p>
+            </div>
+            <div class="col-md-12 d-flex align-items-center justify-content-center my-3 mx-5"> <a href="#">
+                <i class="d-block fa fa-facebook-official text-muted fa-lg mr-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-instagram text-muted fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-google-plus-official text-muted fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-pinterest-p text-muted fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-twitter text-muted fa-lg ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="mb-0 mx-5 px-5 w-100">© 2019, IFAM. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
